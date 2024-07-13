@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(11, 117, 231);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.list{
+    width: 80%;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: rgb(7, 34, 113);
+    margin-top: 40px;
+}
+
+.div-box{
+    display: flex;
+    gap: 20px;
+}
+
+main h1{
+    color: yellow;
+    font-size: 42px;
+}
+
+.div-box button{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.movies-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;   
+    color: white;
+}
+
+.movieDetails-box{
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    width: 70%;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(7, 34, 113);
+    gap: 30px;
+    padding: 20px;
+}
+
+.title-img{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    gap: 40px;
+}
+
+.genres{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    background-color: yellow;
+    width: 25%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+}
+
+.movieDetails-box img{
+    height: 280px;
+    width: 200px;
+}
+
+
+@media only screen and (max-width: 900px){
+    .list{
+        column-gap: 80px;
+    }
+}
